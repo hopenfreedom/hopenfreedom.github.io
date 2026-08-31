@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://hopenfreedom.github.io
+Sitemap: https://hopenfreedom.github.io/sitemap.xml
