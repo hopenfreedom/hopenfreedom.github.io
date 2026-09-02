@@ -282,3 +282,16 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #ffd5
 @media(max-width:900px){.involved-intro{grid-template-columns:1fr;gap:25px}.involved-intro>p{padding-left:22px}.involved-grid{grid-template-columns:1fr}.involved-card{min-height:270px}}
 @media(max-width:620px){.get-involved{padding:72px 0}.involved-intro h2{font-size:36px}.involved-card{padding:28px 24px}.involved-card a{left:24px;bottom:26px}}
 @media(prefers-reduced-motion:reduce){.involved-card,.involved-card a span{transition:none}}
+
+/* Original field photography */
+.hero{background-image:linear-gradient(90deg,rgba(2,22,38,.84) 0%,rgba(3,30,50,.48) 55%,rgba(3,25,43,.22)),url("assets/photos/field-11.jpg");background-position:center 40%}
+.about:before{background-image:url("assets/photos/field-01.jpg");background-position:center}
+.projects-grid .impact-card{background-size:cover;background-position:center}
+.projects-grid .project-1{background-image:url("assets/photos/field-01.jpg")}
+.projects-grid .project-2{background-image:url("assets/photos/field-04.jpg")}
+.projects-grid .project-3{background-image:url("assets/photos/field-10.jpg")}
+.projects-grid .project-4{background-image:url("assets/photos/field-11.jpg")}
+.projects-grid .project-5{background-image:url("assets/photos/field-06.jpg")}
+.projects-grid .project-6{background-image:url("assets/photos/field-02.jpg")}
+.projects-grid .project-7{background-image:url("assets/photos/field-05.jpg")}
+.projects-grid .project-8{background-image:url("assets/photos/field-12.jpg")}

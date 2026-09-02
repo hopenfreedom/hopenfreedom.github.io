@@ -8,6 +8,17 @@ const projects={
   'marriage-support':{number:'07',title:'Marriage Support for Deserving Families',tagline:'Respectful assistance that helps families celebrate without unmanageable debt.',image:'../assets/projects-5-8.png',position:'0 100%',intro:'For families experiencing poverty, essential marriage costs can create severe financial pressure. We provide modest, respectful support based on genuine need.',body:'Assistance focuses on practical household and ceremony essentials rather than extravagance. Every case is handled discreetly, helping families begin a new chapter without being pushed deeper into debt.',focus:['Essential household items','Modest ceremony assistance','Needs-based family support','Private and dignified delivery'],quote:'Support offered with respect allows a joyful occasion to remain a source of hope.'},
   'religious-leader-support':{number:'08',title:'Support for Deserving Religious Leader',tagline:'Honouring community service through discreet and practical welfare support.',image:'../assets/projects-5-8.png',position:'100% 100%',intro:'Religious leaders often serve their communities with limited personal income. Where genuine need exists, we provide practical assistance with care and discretion.',body:'Support may include groceries, healthcare assistance and essential household needs. The programme is based on financial need and community service, and assistance is provided without political or sectarian discrimination.',focus:['Monthly grocery assistance','Healthcare support','Essential household needs','Respectful, needs-based assessment'],quote:'Those who support their communities should not be left alone in times of hardship.'}
 };
+const originalProjectPhotos={
+  'brick-kiln-workers':'../assets/photos/field-01.jpg',
+  'free-medical-camps':'../assets/photos/field-04.jpg',
+  'clean-water':'../assets/photos/field-10.jpg',
+  'education-scholarships':'../assets/photos/field-11.jpg',
+  'orphans-widows-support':'../assets/photos/field-06.jpg',
+  'women-empowerment':'../assets/photos/field-02.jpg',
+  'marriage-support':'../assets/photos/field-05.jpg',
+  'religious-leader-support':'../assets/photos/field-12.jpg'
+};
+Object.entries(originalProjectPhotos).forEach(([projectKey,image])=>{projects[projectKey].image=image;projects[projectKey].position='center'});
 const key=document.body.dataset.project;
 const project=projects[key];
 if(project){
