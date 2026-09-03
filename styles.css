@@ -210,7 +210,7 @@ footer{background:#031f37;color:#d3dee5;padding:63px 0 20px}.footer-grid{display
 a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #ffd51f;outline-offset:3px}
 .hero{background-image:linear-gradient(90deg,rgba(2,22,38,.8) 0%,rgba(3,30,50,.36) 55%,rgba(3,25,43,.15)),url("assets/hero.webp")}
 .about:before{background-image:url("assets/hero.webp")}
-.owner-avatar{position:absolute;left:50%;top:0;transform:translateX(-50%);display:grid;place-items:center;width:220px;height:220px;border-radius:50%;border:8px solid rgba(255,255,255,.16);background:linear-gradient(145deg,#29479f,#23366f);color:#ffd51f;font-size:66px;font-weight:800;letter-spacing:-4px;box-shadow:0 18px 45px rgba(20,35,88,.35)}
+.owner-avatar{position:absolute;left:50%;top:0;transform:translateX(-50%);display:block;width:220px;height:220px;border-radius:50%;border:8px solid rgba(255,255,255,.16);background:#29479f;object-fit:cover;object-position:center 24%;box-shadow:0 18px 45px rgba(20,35,88,.35)}
 .project-1{background-image:url("assets/projects-1-4.webp")}.project-2{background-image:url("assets/projects-1-4.webp")}.project-3{background-image:url("assets/projects-1-4.webp")}.project-4{background-image:url("assets/projects-1-4.webp")}
 .project-5{background-image:url("assets/projects-5-8.webp")}.project-6{background-image:url("assets/projects-5-8.webp")}.project-7{background-image:url("assets/projects-5-8.webp")}.project-8{background-image:url("assets/projects-5-8.webp")}
 .footer-support{display:inline-flex;margin-top:20px;padding-bottom:4px;border-bottom:2px solid #ffd51f;font-weight:800;color:#fff}
