@@ -197,6 +197,7 @@ footer{background:#031f37;color:#d3dee5;padding:63px 0 20px}.footer-grid{display
 .footer-contact .newsletter input{height:52px;background:#fff;color:#1d2f67;padding:0 18px;border-radius:5px 0 0 5px;font-weight:700}
 .footer-contact .newsletter button{height:52px;background:#ffd51f;color:#111;padding:0 19px;border-radius:0 5px 5px 0;font-size:13px;font-weight:800}
 .footer-contact h2{margin-bottom:18px}.footer-contact>a{display:block;margin:9px 0;font-weight:600;font-size:14px}
+.footer-contact .instagram-link{display:flex;align-items:center;gap:8px;margin-top:14px;color:#ffd400}.instagram-link span{font-size:21px;line-height:1}
 .site-footer .footer-bottom{background:#1d2a67;border:0;margin:0;padding:15px 0;color:#fff}
 .site-footer .footer-bottom .shell{display:flex;justify-content:space-between;align-items:center}
 .site-footer .footer-bottom nav{display:flex;gap:0}.site-footer .footer-bottom nav a{padding:0 10px;border-right:1px solid rgba(255,255,255,.55)}.site-footer .footer-bottom nav a:last-child{border:0}
