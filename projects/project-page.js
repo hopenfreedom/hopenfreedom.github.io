@@ -10,13 +10,13 @@ const projects={
 };
 const originalProjectPhotos={
   'brick-kiln-workers':'../assets/photos/field-01.jpg',
-  'free-medical-camps':'../assets/photos/field-04.jpg',
-  'clean-water':'../assets/photos/field-10.jpg',
-  'education-scholarships':'../assets/photos/field-11.jpg',
-  'orphans-widows-support':'../assets/photos/field-06.jpg',
+  'free-medical-camps':'../assets/project-photos/medical-camp.jpg',
+  'clean-water':'../assets/project-photos/clean-water.jpg',
+  'education-scholarships':'../assets/project-photos/education.jpg',
+  'orphans-widows-support':'../assets/project-photos/widows.jpg',
   'women-empowerment':'../assets/photos/field-02.jpg',
   'marriage-support':'../assets/photos/field-05.jpg',
-  'religious-leader-support':'../assets/photos/field-12.jpg'
+  'religious-leader-support':'../assets/project-photos/religious-leader.jpg'
 };
 Object.entries(originalProjectPhotos).forEach(([projectKey,image])=>{projects[projectKey].image=image;projects[projectKey].position='center'});
 const key=document.body.dataset.project;

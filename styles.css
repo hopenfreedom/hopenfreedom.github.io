@@ -289,10 +289,10 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #ffd5
 .about:before{background-image:url("assets/photos/field-01.jpg");background-position:center}
 .projects-grid .impact-card{background-size:cover;background-position:center}
 .projects-grid .project-1{background-image:url("assets/photos/field-01.jpg")}
-.projects-grid .project-2{background-image:url("assets/photos/field-04.jpg")}
-.projects-grid .project-3{background-image:url("assets/photos/field-10.jpg")}
-.projects-grid .project-4{background-image:url("assets/photos/field-11.jpg")}
-.projects-grid .project-5{background-image:url("assets/photos/field-06.jpg")}
+.projects-grid .project-2{background-image:url("assets/project-photos/medical-camp.jpg")}
+.projects-grid .project-3{background-image:url("assets/project-photos/clean-water.jpg")}
+.projects-grid .project-4{background-image:url("assets/project-photos/education.jpg")}
+.projects-grid .project-5{background-image:url("assets/project-photos/widows.jpg")}
 .projects-grid .project-6{background-image:url("assets/photos/field-02.jpg")}
 .projects-grid .project-7{background-image:url("assets/photos/field-05.jpg")}
-.projects-grid .project-8{background-image:url("assets/photos/field-12.jpg")}
+.projects-grid .project-8{background-image:url("assets/project-photos/religious-leader.jpg")}
