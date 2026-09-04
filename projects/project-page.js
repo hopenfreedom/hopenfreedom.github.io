@@ -26,7 +26,7 @@ if(project){
   let description=document.querySelector('meta[name="description"]');
   if(!description){description=document.createElement('meta');description.name='description';document.head.appendChild(description)}
   description.content=project.tagline;
-  if(!document.querySelector('link[rel="icon"]')){const icon=document.createElement('link');icon.rel='icon';icon.type='image/svg+xml';icon.href='../assets/favicon.svg';document.head.appendChild(icon)}
+  if(!document.querySelector('link[rel="icon"]')){const icon=document.createElement('link');icon.rel='icon';icon.type='image/jpeg';icon.href='../assets/logo.jpg';document.head.appendChild(icon)}
   document.querySelector('[data-number]').textContent=project.number;
   document.querySelector('[data-title]').textContent=project.title;
   document.querySelector('[data-tagline]').textContent=project.tagline;

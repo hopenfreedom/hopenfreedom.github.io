@@ -299,3 +299,9 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #ffd5
 
 /* Keep the owner visible in the hero photo on narrow mobile screens. */
 @media(max-width:620px){.hero{background-position:88% 40%}}
+
+/* Supplied Hope Freedom Ministry identity. */
+.brand>img,.footer-logo>img{display:block;flex:0 0 auto;border-radius:50%;object-fit:cover}
+.brand>img{width:58px;height:58px;box-shadow:0 2px 9px rgba(35,54,111,.2)}
+.footer-logo>img{width:82px;height:82px;border:2px solid rgba(255,212,0,.75)}
+@media(max-width:620px){.brand>img{width:46px;height:46px}.brand{gap:8px}.brand small{letter-spacing:1.8px}}

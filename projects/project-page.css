@@ -43,5 +43,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #ffd51f;outline-offset:3p
 .brand svg{transition:transform .35s ease}.brand:hover svg{transform:rotate(-5deg) scale(1.05)}
 .focus-card,.donate-link{transition:transform .22s ease,box-shadow .22s ease}.focus-card:hover{transform:translateY(-4px);box-shadow:0 18px 45px rgba(35,54,111,.16)}.donate-link:hover{transform:translateY(-2px)}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.brand svg,.focus-card,.donate-link{transition:none}}
+.brand>img{display:block;width:58px;height:58px;flex:0 0 auto;border-radius:50%;object-fit:cover;box-shadow:0 2px 9px rgba(35,54,111,.2)}
+@media(max-width:620px){.main-nav .brand>img{width:46px;height:46px}.main-nav .brand{gap:8px}}
 .project-footer-links{display:flex;align-items:center;gap:24px}.project-footer-links a:last-child{color:#ffd400}
 @media(max-width:620px){.project-footer-links{flex-direction:column;align-items:flex-start;gap:8px}}
