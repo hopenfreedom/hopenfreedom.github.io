@@ -285,17 +285,17 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #ffd5
 @media(prefers-reduced-motion:reduce){.involved-card,.involved-card a span{transition:none}}
 
 /* Original field photography */
-.hero{background-image:linear-gradient(90deg,rgba(2,22,38,.84) 0%,rgba(3,30,50,.48) 55%,rgba(3,25,43,.22)),url("assets/photos/field-11.jpg");background-position:center 40%}
-.about:before{background-image:url("assets/photos/field-01.jpg");background-position:center}
+.hero{background-image:linear-gradient(90deg,rgba(2,22,38,.84) 0%,rgba(3,30,50,.48) 55%,rgba(3,25,43,.22)),url("assets/photos/field-11.webp");background-position:center 40%}
+.about:before{background-image:url("assets/photos/field-01.webp");background-position:center}
 .projects-grid .impact-card{background-size:cover;background-position:center}
-.projects-grid .project-1{background-image:url("assets/project-photos/brick-kiln-workers.jpg")}
-.projects-grid .project-2{background-image:url("assets/project-photos/medical-camp.jpg")}
-.projects-grid .project-3{background-image:url("assets/project-photos/clean-water.jpg")}
-.projects-grid .project-4{background-image:url("assets/project-photos/education.jpg")}
-.projects-grid .project-5{background-image:url("assets/project-photos/widows.jpg")}
-.projects-grid .project-6{background-image:url("assets/photos/field-02.jpg")}
-.projects-grid .project-7{background-image:url("assets/project-photos/marriage-support.jpg")}
-.projects-grid .project-8{background-image:url("assets/project-photos/religious-leader.jpg")}
+.projects-grid .project-1{background-image:url("assets/project-photos/brick-kiln-workers.webp")}
+.projects-grid .project-2{background-image:url("assets/project-photos/medical-camp.webp")}
+.projects-grid .project-3{background-image:url("assets/project-photos/clean-water.webp")}
+.projects-grid .project-4{background-image:url("assets/project-photos/education.webp")}
+.projects-grid .project-5{background-image:url("assets/project-photos/widows.webp")}
+.projects-grid .project-6{background-image:url("assets/photos/field-02.webp")}
+.projects-grid .project-7{background-image:url("assets/project-photos/marriage-support.webp")}
+.projects-grid .project-8{background-image:url("assets/project-photos/religious-leader.webp")}
 
 /* Keep the owner visible in the hero photo on narrow mobile screens. */
 @media(max-width:620px){.hero{background-position:88% 40%}}

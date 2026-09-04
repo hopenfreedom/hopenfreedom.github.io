@@ -9,14 +9,14 @@ const projects={
   'religious-leader-support':{number:'08',title:'Support for Deserving Religious Leader',tagline:'Honouring community service through discreet and practical welfare support.',image:'../assets/projects-5-8.png',position:'100% 100%',intro:'Religious leaders often serve their communities with limited personal income. Where genuine need exists, we provide practical assistance with care and discretion.',body:'Support may include groceries, healthcare assistance and essential household needs. The programme is based on financial need and community service, and assistance is provided without political or sectarian discrimination.',focus:['Monthly grocery assistance','Healthcare support','Essential household needs','Respectful, needs-based assessment'],quote:'Those who support their communities should not be left alone in times of hardship.'}
 };
 const originalProjectPhotos={
-  'brick-kiln-workers':'../assets/project-photos/brick-kiln-workers.jpg',
-  'free-medical-camps':'../assets/project-photos/medical-camp.jpg',
-  'clean-water':'../assets/project-photos/clean-water.jpg',
-  'education-scholarships':'../assets/project-photos/education.jpg',
-  'orphans-widows-support':'../assets/project-photos/widows.jpg',
-  'women-empowerment':'../assets/photos/field-02.jpg',
-  'marriage-support':'../assets/project-photos/marriage-support.jpg',
-  'religious-leader-support':'../assets/project-photos/religious-leader.jpg'
+  'brick-kiln-workers':'../assets/project-photos/brick-kiln-workers.webp',
+  'free-medical-camps':'../assets/project-photos/medical-camp.webp',
+  'clean-water':'../assets/project-photos/clean-water.webp',
+  'education-scholarships':'../assets/project-photos/education.webp',
+  'orphans-widows-support':'../assets/project-photos/widows.webp',
+  'women-empowerment':'../assets/photos/field-02.webp',
+  'marriage-support':'../assets/project-photos/marriage-support.webp',
+  'religious-leader-support':'../assets/project-photos/religious-leader.webp'
 };
 Object.entries(originalProjectPhotos).forEach(([projectKey,image])=>{projects[projectKey].image=image;projects[projectKey].position='center'});
 const key=document.body.dataset.project;
@@ -26,7 +26,7 @@ if(project){
   let description=document.querySelector('meta[name="description"]');
   if(!description){description=document.createElement('meta');description.name='description';document.head.appendChild(description)}
   description.content=project.tagline;
-  if(!document.querySelector('link[rel="icon"]')){const icon=document.createElement('link');icon.rel='icon';icon.type='image/jpeg';icon.href='../assets/logo.jpg';document.head.appendChild(icon)}
+  if(!document.querySelector('link[rel="icon"]')){const icon=document.createElement('link');icon.rel='icon';icon.type='image/webp';icon.href='../assets/logo.webp';document.head.appendChild(icon)}
   document.querySelector('[data-number]').textContent=project.number;
   document.querySelector('[data-title]').textContent=project.title;
   document.querySelector('[data-tagline]').textContent=project.tagline;
