@@ -11,7 +11,7 @@ if(serviceWord){
 }
 const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(!entry.isIntersecting)return;entry.target.querySelectorAll('[data-count]').forEach(el=>{const target=+el.dataset.count,start=performance.now();function tick(now){const p=Math.min((now-start)/1100,1),v=Math.floor(target*(1-Math.pow(1-p,3)));el.textContent=v.toLocaleString();if(p<1)requestAnimationFrame(tick)}requestAnimationFrame(tick)});observer.unobserve(entry.target)}),{threshold:.25});observer.observe(document.querySelector('.impact-grid'));
 const newsletter=document.querySelector('#newsletter-form');
-if(newsletter){newsletter.addEventListener('submit',event=>{event.preventDefault();const email=new FormData(newsletter).get('email');window.location.href=`mailto:hello@hopefreedom.org?subject=${encodeURIComponent('Newsletter updates')}&body=${encodeURIComponent(`Please add ${email} to Hope Freedom Foundation updates.`)}`})}
+if(newsletter){newsletter.addEventListener('submit',event=>{event.preventDefault();const email=new FormData(newsletter).get('email');window.location.href=`mailto:hello@hopefreedom.org?subject=${encodeURIComponent('Newsletter updates')}&body=${encodeURIComponent(`Please add ${email} to Hope Freedom Ministry updates.`)}`})}
 
 // Subtle, accessible entrance animations.
 const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
