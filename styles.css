@@ -296,3 +296,6 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #ffd5
 .projects-grid .project-6{background-image:url("assets/photos/field-02.jpg")}
 .projects-grid .project-7{background-image:url("assets/project-photos/marriage-support.jpg")}
 .projects-grid .project-8{background-image:url("assets/project-photos/religious-leader.jpg")}
+
+/* Keep the owner visible in the hero photo on narrow mobile screens. */
+@media(max-width:620px){.hero{background-position:88% 40%}}
