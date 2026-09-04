@@ -45,5 +45,8 @@ a:focus-visible,button:focus-visible{outline:3px solid #ffd51f;outline-offset:3p
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.brand svg,.focus-card,.donate-link{transition:none}}
 .brand>img{display:block;width:58px;height:58px;flex:0 0 auto;border-radius:50%;object-fit:cover;box-shadow:0 2px 9px rgba(35,54,111,.2)}
 @media(max-width:620px){.main-nav .brand>img{width:46px;height:46px}.main-nav .brand{gap:8px}}
+.language-switcher{display:flex;align-items:center;gap:6px;min-width:118px;color:#23366f;font-weight:700}.language-switcher>span{font-size:17px;line-height:1}.language-switcher .gt_selector{width:98px;min-height:36px;padding:6px 8px;border:1px solid #cbd3e3;border-radius:4px;background:#fff;color:#17274f;font:600 13px "DM Sans",sans-serif;cursor:pointer}
+@media(max-width:1050px){.language-switcher{min-width:102px}.language-switcher>span{display:none}.language-switcher .gt_selector{width:102px}}
+@media(max-width:900px){.language-switcher{width:100%;min-width:0}.language-switcher .gtranslate_wrapper,.language-switcher .gt_selector{width:100%}}
 .project-footer-links{display:flex;align-items:center;gap:24px}.project-footer-links a:last-child{color:#ffd400}
 @media(max-width:620px){.project-footer-links{flex-direction:column;align-items:flex-start;gap:8px}}

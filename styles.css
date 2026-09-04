@@ -305,3 +305,10 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #ffd5
 .brand>img{width:58px;height:58px;box-shadow:0 2px 9px rgba(35,54,111,.2)}
 .footer-logo>img{width:82px;height:82px;border:2px solid rgba(255,212,0,.75)}
 @media(max-width:620px){.brand>img{width:46px;height:46px}.brand{gap:8px}.brand small{letter-spacing:1.8px}}
+
+/* GTranslate language selector */
+.language-switcher{display:flex;align-items:center;gap:6px;min-width:118px;color:#23366f;font-weight:700}
+.language-switcher>span{font-size:17px;line-height:1}
+.language-switcher .gt_selector{width:98px;min-height:36px;padding:6px 8px;border:1px solid #cbd3e3;border-radius:4px;background:#fff;color:#17274f;font:600 13px "DM Sans",sans-serif;cursor:pointer}
+@media(max-width:1050px){.language-switcher{min-width:102px}.language-switcher>span{display:none}.language-switcher .gt_selector{width:102px}}
+@media(max-width:900px){.language-switcher{width:100%;min-width:0}.language-switcher .gtranslate_wrapper,.language-switcher .gt_selector{width:100%}}
