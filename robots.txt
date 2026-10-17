@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://hopefreedom.org/sitemap.xml

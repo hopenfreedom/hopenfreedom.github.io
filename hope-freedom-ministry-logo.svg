@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="425" height="426" viewBox="0 0 425 426" role="img" aria-labelledby="title desc">
+  <title id="title">Hope Freedom Ministry logo</title>
+  <desc id="desc">A cross above an open book, encircled by the Hope Freedom Ministry name.</desc>
+  <circle cx="212.5" cy="213" r="202" fill="#f4fafe" stroke="#0874a8" stroke-width="7"/>
+  <circle cx="212.5" cy="213" r="184" fill="#e0f3fc" stroke="#81d1fa" stroke-width="2"/>
+  <path d="M213 88v135M171 129h84" stroke="#0874a8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M94 234q59-23 119 8 60-31 119-8v64q-59-19-119 9-60-28-119-9z" fill="#fff" stroke="#123f61" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M213 244v61" stroke="#0874a8" stroke-width="5"/>
+  <g fill="#123f61" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="212.5" y="350" font-size="25">HOPE FREEDOM</text>
+    <text x="212.5" y="379" font-size="22" letter-spacing="5">MINISTRY</text>
+  </g>
+</svg>
